@@ -1,0 +1,104 @@
+:root {
+  --quarto-content-width: 1800px; 
+  --bs-content-max-width: 1800px;
+}
+
+/* --- Global Alignment Overrides --- */
+body { 
+  text-align: left !important; 
+  font-size: 1.1rem !important;
+}
+
+#title-block-header { 
+  text-align: left !important; 
+}
+
+.quarto-title .title {
+    font-size: 1.4rem !important; 
+    line-height: 1.1em;             
+    text-align: left !important; 
+    margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Content Container Overrides --- */
+.container {
+  max-width: 100% !important; 
+}
+
+.main-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* --- Component Styles --- */
+.clean-quote {
+    padding: 1.5em;
+    margin: 1em 0;
+    border-left: 3px solid #eee; 
+    font-style: italic;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* --- Citation Highlighting --- */
+div.csl-entry {
+  position: relative;
+  z-index: 1; 
+  scroll-margin-top: 80px; 
+}
+
+div.csl-entry:target::before {
+  content: "";
+  position: absolute;
+  
+  top: -5px;
+  bottom: -5px;
+  right: -10px;
+  left: -2em; 
+  
+  background-color: #ffeb3b; 
+  border-radius: 4px;
+  outline: 1px solid #fbc02d; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  
+  z-index: -1; 
+  animation: highlight-fade 2s ease-out;
+}
+
+@keyframes highlight-fade {
+  from { background-color: #ffeb3b; }
+  to { background-color: #fff9c4; } 
+}
+
+/* --- Back to Top Button --- */
+#back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none; 
+  background-color: #007bff;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-size: 20px;
+  z-index: 9999;
+  transition: transform 0.2s ease;
+}
+
+#back-to-top:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}

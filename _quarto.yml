@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "prototypes/*.html"
+
+website:
+  title: "Operations Research Prototypes"
+  navbar:
+    background: primary 
+    foreground: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: prototypes/nspire_model.html
+        text: Prescriptive Analytics (MC Simulator)
+      - href: prototypes/boston_311_2024.html
+        text: Descriptive Analytics
+    right:
+      - text: "Back to Main Site"
+        icon: arrow-up-right-square
+        href: https://joelRMath.github.io/ # Adjust to your actual main URL
+      - icon: github
+        href: https://github.com/joelRMath/ORProto
+
+format:
+  html:
+    theme: cosmo  
+    fontsize: 1.2em
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
