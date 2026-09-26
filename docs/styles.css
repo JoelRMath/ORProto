@@ -13,13 +13,6 @@ body {
   text-align: left !important; 
 }
 
-.quarto-title .title {
-    font-size: 1.4rem !important; 
-    line-height: 1.1em;             
-    text-align: left !important; 
-    margin-top: 0;
-}
-
 a {
   text-decoration: none;
   color: #007bff; 

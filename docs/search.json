@@ -11,6 +11,13 @@
     "href": "index.html",
     "title": "Operations Research Prototypes",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to my operations research portfolio. Please use the navigation bar above to explore the interactive HTML reports."
+  },
+  {
+    "objectID": "index.html#methodological-foundations",
+    "href": "index.html#methodological-foundations",
+    "title": "Operations Research Prototypes",
+    "section": "Methodological Foundations",
+    "text": "Methodological Foundations\nThe operations research prototypes in this repository demonstrate practical applications of a highly rigorous mathematical toolkit. While the use-cases here focus on operational workflows, the underlying methodologies are driven by the exact same advanced mathematical, statistical, and computational models I have developed and published in peer-reviewed scientific journals:\n\nConstrained Optimization & Advanced Probability\nThe optimization of systemic workflows relies on rigorous mathematical programming. I have extensively utilized constrained optimization techniques (including Linear and Quadratic Programming, and projection on polyhedral sets), Simulated Annealing heuristics, Markov chains, advanced probability calculus, and maximum entropy models. * Peer-Reviewed Applications: [7], [8]\n\n\nNetwork Optimization & Graph Algorithms\nThe custom S4 class structures and Directed Acyclic Graphs (DAGs) driving my simulation engines are built on advanced network topology. My foundational work in this area includes developing analytical approximations for generalized degree problems in both unipartite and bipartite graphs, designing algorithms with optimal time complexity, and identifying unsupervised clustering and community structures in large networks. * Peer-Reviewed Applications: [4], [13], [14], [15]\n\n\nStochastic Modeling & Nonlinear Dynamical Systems\nEvaluating systemic workflows under uncertainty requires robust probabilistic modeling. My foundational research establishes globally convergent iterative methods for nonlinear algebraic systems, alongside extensive work with stochastic and nonlinear differential equations, partial differential equations (PDEs), bifurcation analysis, and first passage time in structured large networks. * Peer-Reviewed Applications: [19], [21], [20], [22], [23]\n\n\nMultivariate Statistics & Large-Scale Data Analysis\nDescriptive and predictive analytics rely on extracting signal from noise. I apply advanced multivariate statistical approaches, Monte Carlo-based permutation testing, and reverse engineering methodologies to analyze highly complex, large-scale datasets. * Peer-Reviewed Applications: [9], [11], [12]"
   }
 ]

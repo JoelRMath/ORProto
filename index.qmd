@@ -2,6 +2,37 @@
 title: "Operations Research Prototypes"
 ---
 
-This is a Quarto website.
+```{r, echo=FALSE, message=FALSE}
+bib_lines <- readLines("references.bib")
+keys <- gsub("^@.*\\{(.*),.*", "\\1", grep("^@", bib_lines, value = TRUE))
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+cite_pub <- function(key) {
+  idx <- which(keys == key)
+  if (length(idx) == 0) return(paste0("[Unknown: ", key, "]"))
+  
+  # Absolute URL pointing back to the main site's rendered HTML
+  return(paste0("[[", idx, "]](https://joelRMath.github.io/publications.html#ref-", key, "){target=\"_blank\"}"))
+}
+```
+
+Welcome to my operations research portfolio. Please use the navigation bar above to explore the interactive HTML reports.
+
+## Methodological Foundations
+
+The operations research prototypes in this repository demonstrate practical applications of a highly rigorous mathematical toolkit. While the use-cases here focus on operational workflows, the underlying methodologies are driven by the exact same advanced mathematical, statistical, and computational models I have developed and published in peer-reviewed scientific journals:
+
+### Constrained Optimization & Advanced Probability
+The optimization of systemic workflows relies on rigorous mathematical programming. I have extensively utilized constrained optimization techniques (including Linear and Quadratic Programming, and projection on polyhedral sets), Simulated Annealing heuristics, Markov chains, advanced probability calculus, and maximum entropy models. 
+* *Peer-Reviewed Applications:* `r cite_pub("HS")`, `r cite_pub("HSS")`
+
+### Network Optimization & Graph Algorithms
+The custom S4 class structures and Directed Acyclic Graphs (DAGs) driving my simulation engines are built on advanced network topology. My foundational work in this area includes developing analytical approximations for generalized degree problems in both unipartite and bipartite graphs, designing algorithms with optimal time complexity, and identifying unsupervised clustering and community structures in large networks.
+* *Peer-Reviewed Applications:* `r cite_pub("WAP")`, `r cite_pub("recomb")`, `r cite_pub("Prot")`, `r cite_pub("JCB")`
+
+### Stochastic Modeling & Nonlinear Dynamical Systems
+Evaluating systemic workflows under uncertainty requires robust probabilistic modeling. My foundational research establishes globally convergent iterative methods for nonlinear algebraic systems, alongside extensive work with stochastic and nonlinear differential equations, partial differential equations (PDEs), bifurcation analysis, and first passage time in structured large networks.
+* *Peer-Reviewed Applications:* `r cite_pub("MathB")`, `r cite_pub("CR")`, `r cite_pub("PNAS")`, `r cite_pub("PRE")`, `r cite_pub("NN")`
+
+### Multivariate Statistics & Large-Scale Data Analysis
+Descriptive and predictive analytics rely on extracting signal from noise. I apply advanced multivariate statistical approaches, Monte Carlo-based permutation testing, and reverse engineering methodologies to analyze highly complex, large-scale datasets.
+* *Peer-Reviewed Applications:* `r cite_pub("HIRD")`, `r cite_pub("Equi")`, `r cite_pub("Gexp")`

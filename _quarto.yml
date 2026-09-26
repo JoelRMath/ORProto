@@ -12,10 +12,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: prototypes/nspire_model.html
-        text: Prescriptive Analytics (MC Simulator)
-      - href: prototypes/boston_311_2024.html
-        text: Descriptive Analytics
+      - text: Prescriptive Analytics
+        menu:
+          - text: "Inspection Preparation (MC Simulator)"
+            href: prototypes/prescriptive-simulator.html
+          # Future items will go here
+      - text: Descriptive Analytics
+        menu:
+          - text: "Spatial Clustering & SLA Analysis"
+            href: prototypes/descriptive-analytics.html
+      - text: Predictive Analytics
+        menu:
+          - text: "Elevator Fault Detection (In Development)"
+            href: index.qmd # Placeholder link until the HTML is ready
     right:
       - text: "Back to Main Site"
         icon: arrow-up-right-square
