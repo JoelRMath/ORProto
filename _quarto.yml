@@ -15,12 +15,12 @@ website:
       - text: Prescriptive Analytics
         menu:
           - text: "Inspection Preparation (MC Simulator)"
-            href: prototypes/prescriptive-simulator.html
+            href: prototypes/nspire_model.html
           # Future items will go here
       - text: Descriptive Analytics
         menu:
           - text: "Spatial Clustering & SLA Analysis"
-            href: prototypes/descriptive-analytics.html
+            href: prototypes/boston_311_2024.html
       - text: Predictive Analytics
         menu:
           - text: "Elevator Fault Detection (In Development)"
