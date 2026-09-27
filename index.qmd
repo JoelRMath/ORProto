@@ -15,24 +15,28 @@ cite_pub <- function(key) {
 }
 ```
 
-Welcome to my operations research portfolio. Please use the navigation bar above to explore the interactive HTML reports.
+Welcome to my Operations Research portfolio. Please use the navigation bar above to explore the different prototypes.
 
 ## Methodological Foundations
 
-The operations research prototypes in this repository demonstrate practical applications of a highly rigorous mathematical toolkit. While the use-cases here focus on operational workflows, the underlying methodologies are driven by the exact same advanced mathematical, statistical, and computational models I have developed and published in peer-reviewed scientific journals:
+The operations research prototypes in this repository demonstrate practical applications of a rigorous mathematical toolkit. While these use-cases focus on operational workflows, the underlying methodologies rely on the same mathematical, statistical, and computational models I have published in peer-reviewed journals:
 
 ### Constrained Optimization & Advanced Probability
-The optimization of systemic workflows relies on rigorous mathematical programming. I have extensively utilized constrained optimization techniques (including Linear and Quadratic Programming, and projection on polyhedral sets), Simulated Annealing heuristics, Markov chains, advanced probability calculus, and maximum entropy models. 
+Workflow optimization relies on mathematical programming. My work applies constrained optimization (including linear and quadratic programming, and projection on polyhedral sets), simulated annealing heuristics, Markov chains, probability calculus, and maximum entropy models.
+
 * *Peer-Reviewed Applications:* `r cite_pub("HS")`, `r cite_pub("HSS")`
 
 ### Network Optimization & Graph Algorithms
-The custom S4 class structures and Directed Acyclic Graphs (DAGs) driving my simulation engines are built on advanced network topology. My foundational work in this area includes developing analytical approximations for generalized degree problems in both unipartite and bipartite graphs, designing algorithms with optimal time complexity, and identifying unsupervised clustering and community structures in large networks.
+Graph theory and network analysis are fundamental to operations research. My published work in this area includes analytical approximations for probabilities of edge-counts conditional to degrees, solutions to unipartite and bipartite generalized degree sequence problems (determining maximum graph size upon edge-rewiring given prescribed vertex degrees), algorithms with optimal time complexity, unsupervised clustering in large networks based on degree robust measures, and identification of community structures.
+
 * *Peer-Reviewed Applications:* `r cite_pub("WAP")`, `r cite_pub("recomb")`, `r cite_pub("Prot")`, `r cite_pub("JCB")`
 
 ### Stochastic Modeling & Nonlinear Dynamical Systems
-Evaluating systemic workflows under uncertainty requires robust probabilistic modeling. My foundational research establishes globally convergent iterative methods for nonlinear algebraic systems, alongside extensive work with stochastic and nonlinear differential equations, partial differential equations (PDEs), bifurcation analysis, and first passage time in structured large networks.
+Modeling operations under uncertainty relies on stochastic processes and dynamical systems. My published work includes globally convergent iterative methods for nonlinear algebraic systems, stochastic linear and nonlinear differential equations, partial differential equations (PDEs), bifurcation analysis, and first passage time problems in the context of coherence resonance for excitable systems.
+
 * *Peer-Reviewed Applications:* `r cite_pub("MathB")`, `r cite_pub("CR")`, `r cite_pub("PNAS")`, `r cite_pub("PRE")`, `r cite_pub("NN")`
 
 ### Multivariate Statistics & Large-Scale Data Analysis
-Descriptive and predictive analytics rely on extracting signal from noise. I apply advanced multivariate statistical approaches, Monte Carlo-based permutation testing, and reverse engineering methodologies to analyze highly complex, large-scale datasets.
+Extracting reliable signals from noisy data is fundamental to descriptive and predictive analytics. My published work applies multivariate statistical approaches, Monte Carlo-based permutation testing, and reverse engineering methodologies to large-scale datasets.
+
 * *Peer-Reviewed Applications:* `r cite_pub("HIRD")`, `r cite_pub("Equi")`, `r cite_pub("Gexp")`
