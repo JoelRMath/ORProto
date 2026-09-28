@@ -14,17 +14,20 @@ website:
         text: Home
       - text: Prescriptive Analytics
         menu:
-          - text: "Inspection Preparation (MC Simulator)"
+          - text: "Optimizing Property Maintenance Prior to Inspection"
             href: prototypes/nspire_model.html
-          # Future items will go here
+          - text: "Automated Fault Alerting with Telemetry (In Development)"
+            href: index.qmd
       - text: Descriptive Analytics
         menu:
-          - text: "Spatial Clustering & SLA Analysis"
+          - text: "Analysis of a Service Requests Dataset"
             href: prototypes/boston_311_2024.html
       - text: Predictive Analytics
         menu:
           - text: "Elevator Fault Detection (In Development)"
             href: index.qmd # Placeholder link until the HTML is ready
+          - text: "Automated Fault Alerting with Telemetry (In Development)"
+            href: index.qmd
     right:
       - text: "Back to Main Site"
         icon: arrow-up-right-square

@@ -15,7 +15,16 @@ cite_pub <- function(key) {
 }
 ```
 
-Welcome to my Operations Research portfolio. Please use the navigation bar above to explore the different prototypes.
+Welcome to my [Operations Research](https://www.informs.org/Explore/Operations-Research-Analytics){target="_blank"} portfolio. 
+
+Operations Research and Analytics focus on transforming data into insights to make better decisions. To help navigate this site, my prototypes are organized into the three major analytical categories:
+
+* **Descriptive Analytics:** Gives insight into past events using historical data.
+* **Predictive Analytics:** Provides insight into what will happen in the future.
+* **Prescriptive Analytics:** Helps with decision-making by providing actionable advice.
+
+**Please use the navigation bar above** to explore the interactive HTML reports.
+
 
 ## Methodological Foundations
 
