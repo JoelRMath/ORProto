@@ -26,11 +26,11 @@ Operations Research and Analytics focus on transforming data into insights to ma
 **Please use the navigation bar above** to explore the interactive HTML reports.
 
 
-## Methodological Foundations
+# Methodological Foundations
 
 The operations research prototypes in this repository demonstrate practical applications of a rigorous mathematical toolkit. While these use-cases focus on operational workflows, the underlying methodologies rely on the same mathematical, statistical, and computational models I have published in peer-reviewed journals:
 
-### Constrained Optimization & Advanced Probability
+## Constrained Optimization & Advanced Probability
 Workflow optimization relies on mathematical programming. My work applies constrained optimization (including linear and quadratic programming, and projection on polyhedral sets), simulated annealing heuristics, Markov chains, probability calculus, and maximum entropy models.
 
 * *Peer-Reviewed Applications:* `r cite_pub("HS")`, `r cite_pub("HSS")`
@@ -40,12 +40,12 @@ Graph theory and network analysis are fundamental to operations research. My pub
 
 * *Peer-Reviewed Applications:* `r cite_pub("WAP")`, `r cite_pub("recomb")`, `r cite_pub("Prot")`, `r cite_pub("JCB")`
 
-### Stochastic Modeling & Nonlinear Dynamical Systems
+## Stochastic Modeling & Nonlinear Dynamical Systems
 Modeling operations under uncertainty relies on stochastic processes and dynamical systems. My published work includes globally convergent iterative methods for nonlinear algebraic systems, stochastic linear and nonlinear differential equations, partial differential equations (PDEs), bifurcation analysis, and first passage time problems in the context of coherence resonance for excitable systems.
 
 * *Peer-Reviewed Applications:* `r cite_pub("MathB")`, `r cite_pub("CR")`, `r cite_pub("PNAS")`, `r cite_pub("PRE")`, `r cite_pub("NN")`
 
-### Multivariate Statistics & Large-Scale Data Analysis
+## Multivariate Statistics & Large-Scale Data Analysis
 Extracting reliable signals from noisy data is fundamental to descriptive and predictive analytics. My published work applies multivariate statistical approaches, Monte Carlo-based permutation testing, and reverse engineering methodologies to large-scale datasets.
 
 * *Peer-Reviewed Applications:* `r cite_pub("HIRD")`, `r cite_pub("Equi")`, `r cite_pub("Gexp")`
