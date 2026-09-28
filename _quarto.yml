@@ -31,7 +31,7 @@ website:
     right:
       - text: "Back to Main Site"
         icon: arrow-up-right-square
-        href: https://joelRMath.github.io/ # Adjust to your actual main URL
+        href: https://joelRMath.github.io/
       - icon: github
         href: https://github.com/joelRMath/ORProto
 
